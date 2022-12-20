@@ -34,44 +34,39 @@
     <div class="profile" id="profile">
       <img src="images/iuliia.png" alt="iuliia-profile-img" class="circle-img">
       <h2>Let me introduce myself</h2>
-      <p class="intro">I am a skilled developer with a strong foundation in HTML, CSS, JavaScript, and Python.<br>
-        I hold a degree in Information Technology from Monash University.<br>
-        I am confident that my technical skills, combined with my IT background, make me an ideal candidate for your
-        role.<br>
-        I am eager to contribute my expertise to your team and help drive the success of your business.</p>
+      <p class="intro">I am a skilled developer with a strong foundation in HTML, CSS, JavaScript, and Python. I hold a
+        Master degree in Information Technology from Monash University. I am confident that my technical consultant
+        experience,
+        combined with
+        my IT background, make me an ideal candidate for your role. I am eager to contribute my expertise to your team
+        and help drive the success of your business.
     </div>
     <hr>
     <h1>My Favourite Projects</h1>
 
     <div class="card" id="project">
-      <h2>Project 1</h2>
-      <p>Description of project 1 goes here.</p>
+      <h2>Learning Platform</h2>
+      <p>Front-end design (HTML, CSS, Bootstrap) with home, signin, signup, contact, feedback pages for a learning
+        platform website to showcase different services. <a
+          href="https://iuliiavinogradova.github.io/learning-platform/">View</a></p>
+      <img class="project-img" src="images/learning-platform.png" alt="learning-platform-img">
     </div>
 
     <div class="card">
-      <h2>Project 2</h2>
-      <p>Description of project 2 goes here.</p>
+      <h2>My Movie Memoir</h2>
+      <p>Android app (Java) with 4 databases: SQLite for storing user history, Firebase for
+        cloud-based storage, Restful API for user
+        details, and Movie database API for retrieving movie details<a href="https://youtu.be/ctzYjl8DLjo">View</a></p>
+      <img class="project-img" src="images/android.png" alt="android-app-img">
     </div>
 
     <div class="card">
-      <h2>Project 3</h2>
-      <p>Description of project 3 goes here.</p>
+      <h2>AgelessFun</h2>
+      <p>AgelessFun website (PHP, HTML, CSS, JavaScript) won Monash Postgraduate Industry Experience EXPO-2020 in the
+        category of: "Older Australians at Play"<a href="https://youtu.be/PtkbFpQYVWI">View</a></p>
+      <img class="project-img" src="images/agelessfun.png" alt="agelessfun-img">
     </div>
 
-    <div class="card">
-      <h2>Project 4</h2>
-      <p>Description of project 4 goes here.</p>
-    </div>
-
-    <div class="card">
-      <h2>Project 5</h2>
-      <p>Description of project 5 goes here.</p>
-    </div>
-
-    <div class="card">
-      <h2>Project 6</h2>
-      <p>Description of project 6 goes here.</p>
-    </div>
     <hr>
     <div class="skills">
       <h2>My Key Skills</h2>
@@ -85,7 +80,8 @@
           create
           dynamic, interactive websites that meet the needs of my clients. My passion for web design and dedication to
           staying
-          up-to-date on the latest trends and techniques make me an excellent website designer and developer.</p>
+          up-to-date on the latest trends and techniques make me a suitable candidate for a website designer and
+          developer role.</p>
 
       </div>
       <div class="skill-row">
@@ -95,9 +91,7 @@
         <p>As a python tutor, I dedicate a significant amount of time and effort to mastering the language. I have
           a deep understanding of its concepts and am able to communicate them effectively to others. I am patient and
           able to
-          adapt my teaching style to meet the needs of individual students. My passion for programming and helping
-          others to
-          learn makes me an excellent python tutor.</p>
+          adapt my teaching style to meet the needs of individual students.</p>
 
       </div>
     </div>
@@ -110,16 +104,15 @@
       <p class="contact-message">I am a skilled and
         reliable website designer and developer who can deliver excellent results for your clients. Want to know more?
         Please send me a message.</p>
-      <form>
+
+      <form id="contact-form" action="/send-message.php">
         <label for="name">Name:</label><br>
         <input type="text" id="name" name="name"><br>
         <label for="email">Email:</label><br>
         <input type="email" id="email" name="email"><br>
-        <label for="phone">Phone:</label><br>
-        <input type="tel" id="phone" name="phone"><br>
         <label for="message">Message:</label><br>
-        <textarea id="message" name="message"></textarea><br><br>
-        <button type="submit" class="btn">CONTACT</button>
+        <textarea id="message" name="message"></textarea><br>
+        <input type="submit" value="Send Message" class="btn">
       </form>
 
     </div>
